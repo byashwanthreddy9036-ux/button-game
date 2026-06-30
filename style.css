@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: grid;
+    min-height: 100vh ;
+}
+
+button{
+    margin: 50px;
+    position: relative;
+    color:rgb(245, 190, 190);
+    background-color: #923636;
+}

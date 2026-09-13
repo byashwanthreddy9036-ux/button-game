@@ -1,16 +1,44 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-    display: grid;
-    min-height: 100vh ;
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
 }
 
-button{
-    margin: 50px;
+#div {
     position: relative;
-    color:rgb(245, 190, 190);
+    min-height: 100vh;
+    width: 100%;
+}
+
+#stats {
+    padding: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 24px;
+}
+
+#stats p {
+    font-size: 16px;
+}
+
+button {
+    position: fixed;
+    padding: 16px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    color: rgb(245, 190, 190);
     background-color: #923636;
+    cursor: pointer;
+    transition: left 0.12s ease, top 0.12s ease, right 0.12s ease, bottom 0.12s ease;
+}
+
+button:hover {
+    background-color: #a94040;
 }
